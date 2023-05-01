@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    padding-left: 600px;
+    padding-top: 250px;
+    max-height: 200px;
+}
+
+.object p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.object {
+    background-color: var(--bg_col);
+    width: 200px;
+    height: 40px;
+}
+
+.obj {
+    background-color: var(--bg_color);
+    height: 160px;
+    width: 200px;
+}
+
+:root {
+    --bg_col : #E69742;
+    --bg_color : black;
+}
